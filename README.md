@@ -1,6 +1,10 @@
 # BSPWM Window Manager - X11 
+
+### Welcome to my simple configuration
 This is my personal WM, it's very simple that works in your potato hardware! :D
-There is no effects, this is simple and direct for my usage because I'm lazier when we're talking personalization zZ
+
+There is no effects, this is simple and direct for my usage, because I'm lazier person!! when we're talking personalization zZ
+
 I will update this dotfile in future when I get my environment better, I still have to add some apps such as VIM Editor and plugins.
 
 ## Screenshots
