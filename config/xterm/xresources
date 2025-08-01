@@ -1,0 +1,65 @@
+! special
+*.foreground:   #f8f8f2
+*.background:   #282a36
+*.cursorColor:  #f8f8f2
+
+! black
+*.color0:       #21222c
+*.color8:       #6272a4
+
+! red
+*.color1:       #ff5555
+*.color9:       #ff6e6e
+
+! green
+*.color2:       #50fa7b
+*.color10:      #69ff94
+
+! yellow
+*.color3:       #f1fa8c
+*.color11:      #ffffa5
+
+! blue
+*.color4:       #bd93f9
+*.color12:      #d6acff
+
+! magenta
+*.color5:       #ff79c6
+*.color13:      #ff92df
+
+! cyan
+*.color6:       #8be9fd
+*.color14:      #a4ffff
+
+! white
+*.color7:       #f8f8f2
+*.color15:      #ffffff
+
+!xterm*faceName: CaskaydiaCoveNerdFont-Bold
+!FiraCodeNerdFont-Bold
+!noto-fonts-cjk 
+!"Font Awesome 6 Free:style=solid"
+! default
+! xterm*faceSize: 9
+!xterm*faceSize: 15
+!xterm*faceName: CaskaydiaCoveNerdFont-Bold
+!xterm*faceName: CaskaydiaCove-Bold; Font Awesome 7 Brands
+!xterm*faceName: Font Awesome 7 Brands 
+xterm*faceName: FiraCode Nerd Font
+xterm*faceSize: 8
+URxvt*transparent: true
+URxvt*shading: 20           ! (opcional: escurece o fundo)
+URxvt*background: [90]#000000
+URxvt*foreground: #ffffff
+URxvt*fadeColor: #000000
+
+! copy any text using xclip
+XTerm*selectToClipboard: true
+
+*VT100*translations:    #override \n\
+    Ctrl <KeyPress> Insert: copy-selection(CLIPBOARD) \n\
+    Shift <KeyPress> Insert: insert-selection(CLIPBOARD)
+
+!XTerm.vt100.translations: #override \
+!    Ctrl Shift <Key>C: exec-formatted("xclip -selection clipboard", PRIMARY) \n
+!    Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
