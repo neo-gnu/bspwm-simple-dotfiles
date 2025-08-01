@@ -11,12 +11,15 @@ echo " My settings are missed up, I didn't have much time to fix some issues"
 	}
 	homedict() {
 		echo "Copyping files to your HOME"
-		cp -ri  user/* ~/ && cp gtkrc-2.0 ~/
+		cp -ri  user/icons ~/.icons && cp gtkrc-2.0 ~/
+		cp -ri  user/themes ~/.themes
+  		cp -ri  user/local ~/.local
+    		cp -ri  user/fonts ~/.fonts
 	}
 
 	rootdict() {
 		echo "Copying files to your /usr/share/fonts"
-		sudo cp -ri user/.fonts/* /usr/share/fonts/
+		sudo cp -ri user/fonts/* /usr/share/fonts/
 	}
 
 	zshedit() {
